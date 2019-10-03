@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.git.workshop.intents.IntentExample;
 import com.git.workshop.lifecycle.Lifecycle;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,7 +24,13 @@ public class MainActivity extends AppCompatActivity {
         execute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Lifecycle.class);
+                // For Lifecycle
+                //Intent intent = new Intent(MainActivity.this, Lifecycle.class);
+
+                // For Intents
+                //Intent intent = new Intent(MainActivity.this, IntentExample.class);
+
+                Intent intent = new Intent(MainActivity.this, IntentExample.class);
                 startActivity(intent);
             }
         });

@@ -19,6 +19,9 @@
 
         <activity android:name=".lifecycle.Lifecycle">
         </activity>
+
+        <activity android:name=".intents.IntentExample">
+        </activity>
     </application>
 
 </manifest>
