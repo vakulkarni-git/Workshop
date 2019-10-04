@@ -1,10 +1,11 @@
 package com.git.workshop.lifecycle;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.git.workshop.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Lifecycle extends AppCompatActivity {
     private static final String TAG = Lifecycle.class.getName();

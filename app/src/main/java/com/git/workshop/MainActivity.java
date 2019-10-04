@@ -1,14 +1,18 @@
 package com.git.workshop;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.git.workshop.database.Repository;
 import com.git.workshop.intents.IntentExample;
 import com.git.workshop.lifecycle.Lifecycle;
+import com.git.workshop.notifications.NotificationActivity;
+import com.git.workshop.preferences.PreferencesExample;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getName();
@@ -30,7 +34,13 @@ public class MainActivity extends AppCompatActivity {
                 // For Intents
                 //Intent intent = new Intent(MainActivity.this, IntentExample.class);
 
-                Intent intent = new Intent(MainActivity.this, IntentExample.class);
+                // For Preferences
+                //Intent intent = new Intent(MainActivity.this, PreferencesExample.class);
+
+                // For Database
+                //Intent intent = new Intent(MainActivity.this, Repository.class);
+
+                Intent intent = new Intent(MainActivity.this, Lifecycle.class);
                 startActivity(intent);
             }
         });

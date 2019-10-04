@@ -3,7 +3,6 @@ package com.git.workshop.intents;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -11,6 +10,8 @@ import android.content.Intent;
 import android.widget.Toast;
 
 import com.git.workshop.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class IntentExample extends AppCompatActivity {
     private static final String TAG = IntentExample.class.getName();

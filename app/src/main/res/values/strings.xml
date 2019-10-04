@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Workshop</string>
+    <string name="channel_name">workshop</string>
+    <string name="channel_description">workshop</string>
 </resources>
